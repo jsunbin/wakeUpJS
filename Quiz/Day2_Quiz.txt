@@ -11,12 +11,12 @@
 alert(`hello! ${user_name}님 환영합니다`)
 이름을 java라고 입력하였을 때 alert에 출력되는 문자열은?
 
-답 :
+답 : hello! java님 환영합니다
 
 <윤석님>
 문제 3. alert과 confirm은 둘다 메세지 창을 띄운다는 공통점이 있지만 다릅니다. 둘의 차이점은 ? 
 
-답 : 
+답 : alert는 사용자에게 일방적으로 메세지를 띄워주고, confirm은 사용자에게 확인(true)과 취소(false)를 입력받습니다.
 
 <선빈님>
 문제 4. console.log(
