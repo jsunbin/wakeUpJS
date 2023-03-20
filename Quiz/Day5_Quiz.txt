@@ -49,3 +49,7 @@ switch (input) {
     console.log("호랑이");
     break;
 }
+
+
+<이윤석>
+문제 3. 2번
