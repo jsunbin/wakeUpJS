@@ -3,6 +3,8 @@ for (let i = 0; i <= num; i+=2) {
   console.log("사자");
 }
 
+답 : 4
+
 
 문제 2. 다음 무한루프에서 i가 3이 됐을 때 반복을 멈추러면 if문에 들어갈 키워드는?
 let i = 0;
@@ -47,3 +49,8 @@ switch (input) {
     console.log("호랑이");
     break;
 }
+
+
+// 김가람
+
+1. 
