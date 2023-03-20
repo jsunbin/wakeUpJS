@@ -1,0 +1,49 @@
+문제 1. 사자를 3번 출력하기위한 num의 값은 무엇일까요?
+for (let i = 0; i <= num; i+=2) {
+  console.log("사자");
+}
+
+
+문제 2. 다음 무한루프에서 i가 3이 됐을 때 반복을 멈추러면 if문에 들어갈 키워드는?
+let i = 0;
+
+while (true) {
+  i++;
+  if(i == 3) {
+    //code
+
+  }
+}
+
+
+문제 3. input에 b를 입력하면 인사를 몇 번 할까요?
+switch (input) {
+  case "a":
+    console.log("안녕하세요");
+  case "b":
+    console.log("안녕하세요");
+  case "c":
+    console.log("안녕하세요");
+}
+
+
+문제 4. 다음 코드에서 반복이 끝났을 때 answer의 값은?
+let answer = 0;
+
+for (let i = 0; i < 10; i++) {
+  if (i % 3 === 0) {
+    continue;
+  }
+  answer++;
+}
+
+
+문제 5. 다음 switch문을 if문으로 바꿔주세요.
+switch (input) {
+  case "A":
+    console.log("사자");
+    break;
+  default:
+    console.log("호랑이");
+    break;
+}

@@ -17,18 +17,18 @@ console.log(a === b);
 문제3. "수능 잘보세요" 가 반환되기 위해 변수 age 에 어떤 값이 들어가야할까요?
 
 if(age > 19) {
-  console.log('환영합니다.')
+  console.log('환영합니다.');
 } else if(age === 19) {
-  console.log('수능 잘보세요')
+  console.log('수능 잘보세요');
 }  else {
-  console.log('안녕히가세요')
+  console.log('안녕히가세요');
 }
 
 
 문제4. 이름이 TOM 이거나 성인이면 '통과' 라고 반환되는 프로그램을 만들때 ? 에 어떤 논리 연산자가 들어가야할까요?
 
 if(name === 'Tom' ? age > 19) {
-  console.log('통과')
+  console.log('통과');
 }
 
 
@@ -60,10 +60,10 @@ if(name === 'Tom' ? age > 19) {
 
 
 <정선빈>
-1.
-2.
-3.
-4.
+1. num += 5;
+2. false
+3. 19
+4. ||
 
 
 
