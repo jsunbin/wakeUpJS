@@ -13,9 +13,10 @@ while (true) {
   i++;
   if(i == 3) {
     //code
-
   }
 }
+
+태희 답: break
 
 
 문제 3. input에 b를 입력하면 인사를 몇 번 할까요?
