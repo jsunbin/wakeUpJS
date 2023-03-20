@@ -31,3 +31,7 @@ if (animal === "dog") {
 } else {
   console.log("👩");
 }
+
+// 6.
+null;
+undefined;
