@@ -51,7 +51,3 @@ switch (input) {
     break;
 }
 
-
-// 김가람
-
-1. 

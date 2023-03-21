@@ -1,0 +1,200 @@
+<내가 출제한 문제>
+
+prompt를 이용하여 차례대로 정수 2개와 연산자 기호를 입력 받아  연산자에 맞는 계산 결과를 출력하는 프로그램을 만들어보세요. 단, switch를 사용하고 alert창에 출력해주세요!
+
+<풀이>
+const num1=Number(prompt("첫번째 숫자를 입력해주세요."));
+const num2=Number(prompt("두번째 숫자를 입력해주세요."));
+const cal=prompt("연산자를 입력해주세요.");
+
+
+switch(cal){
+  case '+':
+  alert(num1+num2);
+  break
+
+  case '-':
+  alert(num1-num2);
+  break
+
+  case '*':
+  alert(num1*num2);
+  break
+
+  case '/':
+  alert(num1/num2);
+  break
+
+  case '%':
+  alert(num1%num2);
+}
+
+
+<윤석님 문제>
+
+문제 : 1부터 100까지의 숫자 중 2와 3의 공배수를 찾는 프로그램을 만들어주세요. 이때 for문을 사용해주시고 최대한 간결하게 만들어주세요.
+
+<풀이>
+
+for (i = 1; i <= 100; i++) {
+  if (i % 2 === 0 && i % 3 === 0) {
+    console.log(i);
+  }
+}
+
+
+
+<사라님 문제>
+
+문제: 구구단 만들기
+
+구구단 2단부터 3단까지 반복문을 사용하여 만들어보시오.
+
+출력값: 2 x 0 = 0
+
+             2 x 1 = 1
+
+             2 x 2 = 4
+
+             …… 
+
+            3 x 9 = 27
+
+<풀이>
+
+for(let i = 2; i <= 3; i++) {
+    for(let j = 1; j <= 9; j++) {
+      console.log(i + ' * ' + j + ' = ' + (i*j));
+    }
+  }
+
+<태희님 문제>
+
+문제 : 반복문을 활용해서 1 부터 100까지 모두 합한 값을 구해주세요
+
+let sum = 0;
+for(let i = 1; i <= 100; i++) {
+  sum += i;
+}
+
+console.log(sum);
+
+
+<선근님 문제>
+
+문제 : 다음 코드에서 answer의 값을 구해주세요
+
+let answer = 0;
+
+for (let i = 1; i <= 3; i++) {
+  if (i % 2) {
+    continue;
+  }
+
+  for (let j = i; j <= 3; j++) {
+    answer += j;
+  }
+}
+
+답: 5
+
+<풀이> answer이 0이고 첫번째 for문 i=1일때 if(1%2)=1이므로 if()안의 값이 true여야 실행되므로 continue; 실행 
+그다음 i=2일때 if(2%2)=0이므로 false로 continue;가 실행되지않고 두번째 포문 j가 실행되게 된다. 2를 answer에 넣게 되고 
+j=3일때 다시 2+3을 answer 값에 넣게 되므로 답은 5
+
+<선빈님 문제>
+
+오늘 저녁은 버거킹!🍔 가진 돈💰은 10,000원 몬스터와퍼 세트를 골랐을 때 console에 찍히는 결과는?
+
+// let setMenu = prompt('무슨 메뉴 사고 싶니?');
+let setMenu = '몬스터와퍼 세트';
+
+switch (setMenu) {
+  case '통새우와퍼주니어 세트' :
+    var leftMoney = 10000 - 8700;
+    if (leftMoney < 0){
+      console.log('돈이 부족해! 돌아가!')
+      break
+    } else if (leftMoney == 0) {
+      console.log('거스름돈은 없어요^^')
+      break
+    } else {
+      console.log(`거스름돈은 ${leftMoney}원`)
+      break
+    }
+
+  case '콰트로치즈와퍼주니어 세트' :
+    var leftMoney = 10000 - 8700;
+    if (leftMoney < 0){
+      console.log('돈이 부족해! 돌아가!')
+      break
+    } else if (leftMoney == 0) {
+      console.log('거스름돈은 없어요^^')
+      break
+    } else {
+      console.log(`거스름돈은 ${leftMoney}원`)
+      break
+    }
+
+  case '치즈와퍼주니어 세트' :
+    var leftMoney = 10000 - 8400;
+    if (leftMoney < 0){
+      console.log('돈이 부족해! 돌아가!')
+      break
+    } else if (leftMoney == 0) {
+      console.log('거스름돈은 없어요^^')
+      break
+    } else {
+      console.log(`거스름돈은 ${leftMoney}원`)
+      break
+    }
+
+  case '와퍼주니어 세트' :
+    var leftMoney = 10000 - 8100;
+    if (leftMoney < 0){
+      console.log('돈이 부족해! 돌아가!')
+      break
+    } else if (leftMoney == 0) {
+      console.log('거스름돈은 없어요^^')
+      break
+    } else {
+      console.log(`거스름돈은 ${leftMoney}원`)
+      break
+    }
+
+  case '불고기와퍼주니어 세트' :
+    var leftMoney = 10000 - 8100;
+    if (leftMoney < 0){
+      console.log('돈이 부족해! 돌아가!')
+      break
+    } else if (leftMoney == 0) {
+      console.log('거스름돈은 없어요^^')
+      break
+    } else {
+      console.log(`거스름돈은 ${leftMoney}원`)
+      break
+    }
+    
+    case '몬스터와퍼 세트' :
+      var leftMoney = 10000 - 12200;
+      if (leftMoney < 0){
+        console.log('돈이 부족해! 돌아가!')
+        break
+      } else if (leftMoney == 0) {
+        console.log('거스름돈은 없어요^^')
+        break
+      } else {
+        console.log(`거스름돈은 ${leftMoney}원`)
+        break
+      }
+
+  default :
+  console.log('보기 중에 고르렴^^')
+}
+
+답 : 돈이 부족해! 돌아가!
+
+<풀이> 
+
+몬스터와퍼 세트를 골랐을 경우 case : '몬스터 와퍼 세트'를 가게 되고 가진 돈이 10000원 이므로 10000-12200;을
+했을 때 음수 값이 나오기 때문에 if문의 첫번째에서 break가 걸려 돈이 부족해! 돌아가!가 출력 된다. 
