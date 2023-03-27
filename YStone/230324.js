@@ -69,3 +69,25 @@ days.unshift("sun");
 for (let day of days) {
   console.log(day);
 }
+
+// 1-1.
+// undefined
+
+// 1-2.
+// false
+
+// 1-3.
+// true
+
+// 2.
+// superman.gender = "female";
+// superman["gender"] = "female";
+
+// 3.
+// window / global
+
+// 4.
+// fruits.pop();
+
+// 5.
+// fruits.unshift("🍊")
