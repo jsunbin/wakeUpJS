@@ -97,3 +97,22 @@ fruits.unshift('🍊');
 
 // 5. 정답
 // fruits.unshift('🍊');
+
+
+/* <이선근>
+1번
+undefined, false, true
+
+2번
+점 표기법: superman.gender = 'female'
+괄호 표기법: superman['gender'] = 'female'
+
+3번
+화살표 함수는 자신의 this를 가지지 않으므로 브라우저에선 window, node에선 global
+
+4번
+fruits.pop()
+
+5번
+fruits.unshift('🍊')
+*/
